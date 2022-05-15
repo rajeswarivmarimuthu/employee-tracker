@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "This is cli-based application for managing employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-rajeswarivmarimuthu:rajeswarivmarimuthu/employee-tracker.git"
+  },
+  "author": "Rajeswari Marimuthu",
+  "license": "ISC",
+  "dependencies": {
+    "console": "^0.7.2",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
