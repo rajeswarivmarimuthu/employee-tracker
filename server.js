@@ -1,6 +1,8 @@
 
 // Importing necessary npm packages
 const inquirer = require('inquirer');
+const cTable = require('console.table');
+
 var process = require('process');
 
 //importing the class and methods for department, role and Employee 
@@ -171,7 +173,6 @@ async function addNewEmployee(){
     //prepare list of roles 
     const newRole = new Role();
     const displayRole = await newRole.roleSelectAll();
-    console.log(displayRole);
     const roleList = function (displayRole) {
         const listRoles = [];
         displayRole.forEach(element => {
@@ -251,7 +252,6 @@ async function deleteRole(){
     let roleID;
     const newRole = new Role();
     const displayRole = await newRole.roleSelectAll();
-    console.log(displayRole);
     const roleList = function (displayRole) {
         const listRoles = [];
         displayRole.forEach(element => {
