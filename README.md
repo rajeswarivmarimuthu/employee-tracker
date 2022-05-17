@@ -5,7 +5,8 @@ This is a command-line application built  to manage a company's employee databas
 This application is not published anywhere yet. Only way to use it for now is to clone/fork it to local to use it.
 
 ## Tech Stack
-- Express.js 
+- Node.js 
+- MySQL
 - npm packages
     - mysql2
     - inquirer
